@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    
+}
+
+body{
+    font-family: "SUGOI UI";
+    background-color: #0d1117;
+    color: #c9d1c9;
+    line-height: 1.6;
+}
+
+.accent{
+    color: #3a7ce0;
+
+}
+
+header{
+    background-color: rgba(red, green, blue, alpha);
+    padding: 1rem 4,5rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #ffffff;
+    align-items: center;
+}
+
+nav a{
+    color: #ffff;
+    font-size: 0,9rem;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0,3s;
+
+}
+
+
+nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+
+}
+
+nav a:hover{
+    color: #3a7ce0;
+
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1.75px;
+    background-color: #3a7ce0;
+    transition: width 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+#about {
+    background-color: #073e63;
+    padding: 6rem 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    min-height: 70vh;
+}
+
+.hero-kiri{
+    max-width: 550px;
+}
+
+.hero-kiri h2{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 0.rem;
+    line-height: 1.1;
+}
+
+.hero-kanan img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    transition: border-color 0.3s;
+}
+
+.hero-kiri p{
+    font-size: 1.2rem;
+}
+
+#pendidikan{
+    padding: 70px 50px;
+}
+
+#pendidikan h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.Sekolah{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.text{
+    width: 280px;
+    min-height: 330px;
+    background: #111827;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.text:hover{
+    transform: translateY(-8px);
+}
+
+.text img{
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.text p{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 180px;
+    background-color: #0d1117;
+    padding: 20px;
+    border: 1px solid black;
+    
+}
